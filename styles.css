@@ -31,14 +31,14 @@ body {
 
 .navbar-list {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     list-style-type: none;
 }
 
 .list-item a {
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
+    color: #212427;
 }
 
 .hero-container {
