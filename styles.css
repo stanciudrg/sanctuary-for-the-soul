@@ -11,3 +11,28 @@ body {
     font-size: 16px;
     line-height: 1.4
 }
+
+header {}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem 0.5rem 1rem;
+}
+
+.navbar-logo img {
+    width: 200px;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.list-item a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
