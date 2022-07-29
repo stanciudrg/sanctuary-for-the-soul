@@ -22,7 +22,7 @@ body {
     width: 100%;
     padding: 1rem 2rem 0.5rem 2rem;
     background: white;
-    box-shadow: 0 0 4px rgba(209, 196, 151, 0.7);
+    box-shadow: 0 0 4px rgba(178, 167, 128, 0.7);
 }
 
 .navbar-logo img {
@@ -77,7 +77,7 @@ body {
 }
 
 .hero-button:hover {
-    background-color: #d1c497;
+    background-color: #b2a780;
 }
 
 .about-container {
@@ -100,7 +100,7 @@ body {
     gap: 4rem;
     background: white;
     border-radius: 0.3rem;
-    box-shadow: 0 0 4px rgba(209, 196, 151, 0.7);
+    box-shadow: 0 0 4px rgba(178, 167, 128, 0.7);
 }
 
 .about-info-description {
@@ -118,8 +118,8 @@ body {
 }
 
 footer {
-    background-color: #212427;
-    color: white;
+    background-color: #b2a780;
+    color: #212427;
     padding: 1rem;
     text-align: center;
 }
