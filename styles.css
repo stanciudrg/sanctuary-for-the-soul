@@ -1,13 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
-
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 1.4;
     background-color: #fdfdfd;
@@ -68,7 +68,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    gap: 2rem;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(178, 167, 128, 0.3)), url(images/mattia-faloretti-jbrR_ESWK2A-unsplash.jpg);
     background-size: cover;
     background-position: center;
@@ -79,12 +78,14 @@ body {
     text-align: center;
     font-size: 3rem;
     text-shadow: 1px 1px black;
+    margin-bottom: 0.5rem;
 }
 
 .hero-description {
     text-align: center;
     font-size: 1.5rem;
     text-shadow: 1px 1px black;
+    margin-bottom: 2rem;
 }
 
 .hero-button {
