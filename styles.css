@@ -12,8 +12,6 @@ body {
     line-height: 1.4
 }
 
-header {}
-
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -35,4 +33,38 @@ header {}
     text-transform: uppercase;
     text-decoration: none;
     color: black;
+}
+
+.hero-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/peter-olexa-Ax6ggq8cSxw-unsplash.jpg);
+    background-size: cover;
+    background-position: fixed;
+    color: white;
+}
+
+.hero-title {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 1px 1px black;
+}
+
+.hero-description {
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px black;
+}
+
+.hero-button {
+    padding: 1rem 2rem;
+    background: white;
+    color: black;
+    text-decoration: none;
+    box-shadow: 1px 1px black;
+    border-radius: 0.3rem;
 }
