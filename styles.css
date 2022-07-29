@@ -9,7 +9,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    line-height: 1.4
+    line-height: 1.4;
+    background-color: #fdfdfd;
 }
 
 .navbar-container {
@@ -21,7 +22,7 @@ body {
     align-items: center;
     width: 100%;
     padding: 1rem 2rem 0.5rem 2rem;
-    background: white;
+    background: linear-gradient(to right, rgba(255, 255, 255), rgba(178, 167, 128));
     box-shadow: 0 0 4px rgba(178, 167, 128, 0.7);
 }
 
@@ -48,10 +49,10 @@ body {
     align-items: center;
     height: 100vh;
     gap: 2rem;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/peter-olexa-Ax6ggq8cSxw-unsplash.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(178, 167, 128, 0.3)), url(images/mattia-faloretti-jbrR_ESWK2A-unsplash.jpg);
     background-size: cover;
-    background-position: fixed;
-    color: white;
+    background-position: center;
+    color: #fdfdfd;
 }
 
 .hero-title {
@@ -68,10 +69,10 @@ body {
 
 .hero-button {
     padding: 1rem 2rem;
-    background: white;
+    background: #fdfdfd;
     color: #212427;
     text-decoration: none;
-    box-shadow: 1px 1px black;
+    box-shadow: 0 0 1px black;
     border-radius: 0.3rem;
     transition: 0.3s;
 }
@@ -98,7 +99,7 @@ body {
     margin: auto;
     padding: 2rem;
     gap: 4rem;
-    background: white;
+    background: #fdfdfd;
     border-radius: 0.3rem;
     box-shadow: 0 0 4px rgba(178, 167, 128, 0.7);
 }
@@ -118,7 +119,7 @@ body {
 }
 
 footer {
-    background-color: #b2a780;
+    background-color: #ededed;
     color: #212427;
     padding: 1rem;
     text-align: center;
