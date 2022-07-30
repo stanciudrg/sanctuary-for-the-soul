@@ -26,6 +26,15 @@ body {
     box-shadow: 0 0 4px rgba(178, 167, 128, 0.7);
 }
 
+@media (max-width: 850px) {
+    .navbar-container {
+        position: relative;
+        flex-flow: column;
+        gap: 1.5rem;
+        padding: 2rem 0 0.5rem 0;
+    }
+}
+
 .navbar-logo img {
     width: 200px;
 }
@@ -36,12 +45,25 @@ body {
     list-style-type: none;
 }
 
+@media (max-width: 850px) {
+    .navbar-list {
+        padding-bottom: 1rem;
+        gap: 1.2rem;
+    }
+}
+
 .list-item a {
     position: relative;
     text-transform: uppercase;
     text-decoration: none;
     color: #212427;
     padding: 0.55rem 0.6rem;
+}
+
+@media (max-width: 850px) {
+    .list-item a {
+        padding: 0;
+    }
 }
 
 .list-item a:after {
@@ -57,9 +79,21 @@ body {
     transition: 0.25s ease-out;
 }
 
+@media (max-width: 850px) {
+    .list-item a:after {
+        display: none;
+    }
+}
+
 .list-item a:hover:after {
     transform: scaleX(1);
     transform-origin: bottom;
+}
+
+@media (max-width: 850px) {
+    .list-item a:hover:after {
+        display: none;
+    }
 }
 
 .hero-container {
@@ -74,18 +108,40 @@ body {
     color: #fdfdfd;
 }
 
+@media (max-width: 850px) {
+    .hero-container {
+        justify-content: flex-start;
+        height: 75vh;
+        padding: 1rem;
+    }
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+}
+
 .hero-title {
+    margin-bottom: 0.5rem;
+    font-family: 'Montserrat' !important;
     text-align: center;
     font-size: 3rem;
     text-shadow: 1px 1px black;
-    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 850px) {
+    .hero-title {
+        margin-top: 5rem;
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+    }
 }
 
 .hero-description {
+    margin-bottom: 2rem;
     text-align: center;
     font-size: 1.5rem;
     text-shadow: 1px 1px black;
-    margin-bottom: 2rem;
 }
 
 .hero-button {
@@ -110,6 +166,13 @@ body {
     color: #212427;
 }
 
+@media (max-width: 850px) {
+    .about-container {
+        margin: 3rem auto;
+        padding: 1rem;
+    }
+}
+
 .about-title {
     width: 100%;
     padding: 1rem;
@@ -132,6 +195,13 @@ body {
     background: #fdfdfd;
     border-radius: 0 0 0.3rem 0.3rem;
     box-shadow: 0 0 4px rgba(178, 167, 128, 0.7);
+}
+
+@media (max-width: 850px) {
+    .about-info-container {
+        flex-flow: column;
+        gap: 2rem;
+    }
 }
 
 .about-info-description {
