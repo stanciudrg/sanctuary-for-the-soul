@@ -103,25 +103,34 @@ body {
 }
 
 .about-container {
-    margin-top: 3rem;
-    margin-bottom: 4rem;
+    display: flex;
+    flex-flow: column;
+    max-width: 850px;
+    margin: 5rem auto;
     color: #212427;
 }
 
 .about-title {
-    margin-bottom: 3rem;
+    width: 100%;
+    padding: 1rem;
     text-align: center;
+    background: linear-gradient(90deg, rgba(253, 253, 253, 1) 0%, rgba(178, 167, 128, 0.8043811274509804) 50%, rgba(253, 253, 253, 1) 100%);
+    box-shadow: 0 0 4px rgba(178, 167, 128, 0.7);
+    border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.about-title h2 {
+    color: #212427df;
+    font-weight: lighter;
 }
 
 .about-info-container {
     display: flex;
     justify-content: center;
-    max-width: 850px;
-    margin: auto;
     padding: 2rem;
     gap: 4rem;
     background: #fdfdfd;
-    border-radius: 0.3rem;
+    border-radius: 0 0 0.3rem 0.3rem;
     box-shadow: 0 0 4px rgba(178, 167, 128, 0.7);
 }
 
